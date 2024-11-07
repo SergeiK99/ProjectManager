@@ -1,0 +1,28 @@
+﻿@model ProjectManager.Models.Project
+
+<h2>Add Employee to Project: @Model.Name</h2>
+
+<form asp-action="AddEmployeeToProject" method="post">
+    <input type="hidden" asp-for="@Model.Id" />
+
+    <div class="mb-3 row">
+        <div class="col-4">
+            <label asp-for="Id">Employee:</label>
+        </div>
+        <div class="col-8">
+            <select asp-for="ProjectManagerId" asp-items="@ViewBag.EmployeeDropDown" class="form-select">
+                <option disabled selected>--Employee--</option>
+            </select>
+            <span asp-validation-for="ProjectManagerId" class="text-danger"></span>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Employee</button>
+    <a asp-controller="Projects" asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

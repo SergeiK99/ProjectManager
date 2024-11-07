@@ -1,0 +1,89 @@
+﻿@model IEnumerable<ProjectManager.Models.Project>
+
+@{
+    ViewData["Title"] = "Projects";
+}
+
+<h1>Projects</h1>
+
+<div class="col-6">
+    <a asp-controller="Projects" asp-action="Create" class="btn btn-primary">
+        Create new project
+    </a>
+</div>
+<form asp-action="Index" method="get">
+    <div class="form-group">
+        <label for="searchString">Search:</label>
+        <input type="text" name="searchString" value="@ViewData["CurrentFilter"]" class="form-control" />  
+    </div>
+    <div style="margin-top: 10px"><input type="submit" value="Find" class="btn btn-primary" /></div>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["StartDateSortParm"]">
+                    @Html.DisplayNameFor(model => model.StartDate)
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["EndDateSortParm"]">
+                    @Html.DisplayNameFor(model => model.EndDate)
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["PrioritySortParm"]">
+                    @Html.DisplayNameFor(model => model.Priority)
+                </a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientCompany)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExecutorCompany)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProjectManager)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Priority)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientCompany.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExecutorCompany.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProjectManager.FirstName)
+                @Html.DisplayFor(modelItem => item.ProjectManager.LastName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                <a asp-controller="ProjectEmployee" asp-action="AddEmployeeToProject" asp-route-ProjectId="@item.Id">Add Employee</a> |
+                <a asp-action="RemoveEmployee" asp-route-id="@item.Id">Remove Employee</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,113 @@
+﻿@model ProjectManager.Models.Project
+
+<form method="post" asp-action="Create">
+    <div class="border p-3">
+        @* <div asp-validation-summary="ModelOnly" class="text-danger"></div> *@
+        <div class="mb-3 row">
+            <h2 class="pl-3">
+                Create project
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <div class="mb-3 row">
+                    <div class="col-4">
+                        <label asp-for="Name"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="mb-3 row">
+                    <div class="col-4">
+                        <label asp-for="StartDate"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="StartDate" class="form-control" />
+                        <span asp-validation-for="StartDate" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="mb-3 row">
+                    <div class="col-4">
+                        <label asp-for="EndDate"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="EndDate" class="form-control" />
+                        <span asp-validation-for="EndDate" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="mb-3 row">
+                    <div class="col-4">
+                        <label asp-for="Priority"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Priority" class="form-control" />
+                        <span asp-validation-for="Priority" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="mb-3 row">
+                    <div class="col-4">
+                        <label asp-for="ClientCompanyId"></label>
+                    </div>
+                    <div class="col-8">
+                        <select asp-for="ClientCompanyId" asp-items="@ViewBag.ClientCompanyDropDown" class="form-select">
+                            <option disabled selected>--ClientCompany--</option>
+                        </select>
+                        <span asp-validation-for="ClientCompanyId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <div class="col-4">
+                        <label asp-for="ExecutorCompanyId"></label>
+                    </div>
+                    <div class="col-8">
+                        <select asp-for="ExecutorCompanyId" asp-items="@ViewBag.ExecutorCompanyDropDown" class="form-select">
+                            <option disabled selected>--ExecutorCompany--</option>
+                        </select>
+                        <span asp-validation-for="ExecutorCompanyId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <div class="col-4">
+                        <label asp-for="ProjectManagerId"></label>
+                    </div>
+                    <div class="col-8">
+                        <select asp-for="ProjectManagerId" asp-items="@ViewBag.EmployeeDropDown" class="form-select">
+                            <option disabled selected>--Employee--</option>
+                        </select>
+                        <span asp-validation-for="ProjectManagerId" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="mb-3 row">
+                    <div class="col-8 offset-4 row">
+
+                        <div class="col">
+                            <input type="submit" class="w-100" value="Create" />
+                        </div>
+                        <div class="col">
+                            <a asp-action="Index"> <i class="fa-solid fa-right-from-bracket"></i> Back </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                @* Keep this empty *@
+            </div>
+        </div>
+
+    </div>
+
+
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial"/>
+    }
+}
