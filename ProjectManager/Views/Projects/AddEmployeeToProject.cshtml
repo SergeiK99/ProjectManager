@@ -10,10 +10,10 @@
             <label asp-for="@Model.Project.Id">Employee:</label>
         </div>
         <div class="col-8">
-            <label asp-for="SelectedEmployeeIds" class="control-label"></label>
-            <select asp-for="SelectedEmployeeIds" asp-items="@(new SelectList(Model.Employees, "Id", "FirstName"))" multiple class="form-control">
+            <label asp-for="@Model.Employees" class="control-label"></label>
+            <select asp-for="@Model.Employees" asp-items="@(new SelectList(Model.Employees, "Id", "FirstName"))" multiple class="form-control">
             </select>
-            <span asp-validation-for="SelectedEmployeeIds" class="text-danger"></span>
+            <span asp-validation-for="@Model.Employees" class="text-danger"></span>
         </div>
     </div>
 

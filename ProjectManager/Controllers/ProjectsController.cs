@@ -78,19 +78,12 @@ namespace ProjectManager.Controllers
                 return NotFound();
             }
 
-            var project = await _context.Project.Include(p => p.Employees)
-                .FirstOrDefaultAsync(p => p.Id == id);
-
-            if (project == null)
-            {
-                return NotFound();
-            }
+            var project = await _context.Project.FindAsync(id);
 
             var viewModel = new ProjectVM
             {
                 Project = project,
-                Employees = _context.Employee.ToList(),
-                SelectedEmployeeIds = project.Employees.Select(pe => pe.EmployeeId).ToList()
+                Employees = _context.Employee.ToList()
             };
 
             return View(viewModel);
@@ -118,14 +111,14 @@ namespace ProjectManager.Controllers
                 // Удаляем старые связи
                 _context.ProjectEmployee.RemoveRange(project.Employees);
                 // Добавляем новые связи
-                foreach (var employeeId in projectVM.SelectedEmployeeIds)
-                {
-                    _context.ProjectEmployee.Add(new ProjectEmployee
-                    {
-                        ProjectId = project.Id,
-                        EmployeeId = employeeId
-                    });
-                }
+                //foreach (var employeeId in projectVM.Employees)
+                //{
+                //    _context.ProjectEmployee.Add(new ProjectEmployee
+                //    {
+                //        ProjectId = project.Id,
+                //        EmployeeId = employeeId
+                //    });
+                //}
 
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
