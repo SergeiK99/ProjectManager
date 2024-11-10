@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|c:\\users\\skx20\\source\\repos\\projectmanager\\projectmanager\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|solutionrelative:projectmanager\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|c:\\users\\skx20\\source\\repos\\projectmanager\\projectmanager\\models\\viewmodels\\projectvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|solutionrelative:projectmanager\\models\\viewmodels\\projectvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|c:\\users\\skx20\\source\\repos\\projectmanager\\projectmanager\\views\\projects\\addemployeetoproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|solutionrelative:projectmanager\\views\\projects\\addemployeetoproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|c:\\users\\skx20\\source\\repos\\projectmanager\\projectmanager\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|solutionrelative:projectmanager\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|c:\\users\\skx20\\source\\repos\\projectmanager\\projectmanager\\views\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|solutionrelative:projectmanager\\views\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Views\\Projects\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectManager\\Views\\Projects\\Index.cshtml",
+              "ToolTip": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Views\\Projects\\Index.cshtml",
+              "RelativeToolTip": "ProjectManager\\Views\\Projects\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T10:30:35.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddEmployeeToProject.cshtml",
+              "DocumentMoniker": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Views\\Projects\\AddEmployeeToProject.cshtml",
+              "RelativeDocumentMoniker": "ProjectManager\\Views\\Projects\\AddEmployeeToProject.cshtml",
+              "ToolTip": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Views\\Projects\\AddEmployeeToProject.cshtml",
+              "RelativeToolTip": "ProjectManager\\Views\\Projects\\AddEmployeeToProject.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T10:13:46.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectVM.cs",
+              "DocumentMoniker": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Models\\ViewModels\\ProjectVM.cs",
+              "RelativeDocumentMoniker": "ProjectManager\\Models\\ViewModels\\ProjectVM.cs",
+              "ToolTip": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Models\\ViewModels\\ProjectVM.cs",
+              "RelativeToolTip": "ProjectManager\\Models\\ViewModels\\ProjectVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:09:41.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "ProjectManager\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "ProjectManager\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAswGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:45:01.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Views\\Projects\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjectManager\\Views\\Projects\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Views\\Projects\\Edit.cshtml",
+              "RelativeToolTip": "ProjectManager\\Views\\Projects\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T09:03:03.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

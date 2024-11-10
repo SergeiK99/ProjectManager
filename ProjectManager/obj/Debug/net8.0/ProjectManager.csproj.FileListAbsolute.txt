@@ -256,3 +256,4 @@ C:\Users\skx20\source\repos\ProjectManager\ProjectManager\bin\Debug\net8.0\runti
 C:\Users\skx20\source\repos\ProjectManager\ProjectManager\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\skx20\source\repos\ProjectManager\ProjectManager\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\skx20\source\repos\ProjectManager\ProjectManager\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\skx20\source\repos\ProjectManager\ProjectManager\obj\Debug\net8.0\ProjectManager.sourcelink.json
