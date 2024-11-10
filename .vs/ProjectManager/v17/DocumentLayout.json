@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|c:\\users\\skx20\\source\\repos\\projectmanager\\projectmanager\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|solutionrelative:projectmanager\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|c:\\users\\skx20\\source\\repos\\projectmanager\\projectmanager\\views\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|solutionrelative:projectmanager\\views\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|c:\\users\\skx20\\source\\repos\\projectmanager\\projectmanager\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6D8820-A038-4FFD-B2D4-96283A8D7041}|ProjectManager\\ProjectManager.csproj|solutionrelative:projectmanager\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Views\\Projects\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectManager\\Views\\Projects\\Index.cshtml",
+              "ToolTip": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Views\\Projects\\Index.cshtml",
+              "RelativeToolTip": "ProjectManager\\Views\\Projects\\Index.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwDkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T09:09:35.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Views\\Projects\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProjectManager\\Views\\Projects\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Views\\Projects\\Edit.cshtml",
+              "RelativeToolTip": "ProjectManager\\Views\\Projects\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T09:03:03.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "ProjectManager\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\skx20\\source\\repos\\ProjectManager\\ProjectManager\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "ProjectManager\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAADwv8IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T08:45:01.345Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
